@@ -20,6 +20,12 @@ class TicTacToe:
 			# tk.title('Player 2: O')
 			return click == False
 
+		#123
+		#456
+		#789
+		
+	#The numbers above are the patterns to a winning combination e.g. 1,4,7 or 1,2,3 or 1,5,9
+
 	def button_clicked(buttons): 
 		global click
 		if buttons['text'] == '' and click == True:
@@ -35,6 +41,8 @@ class TicTacToe:
 			# button1['text'] == 'X' and button5['text'] == 'X' and button9['text'] == 'X'):
 			# 	messagebox.showinfo('Player X', 'You Win! Game Over!')
 
+			#For all possible wins of x
+
 		elif buttons['text'] == '' and click == False:
 			buttons['text'] = 'O'
 			click = True
@@ -47,3 +55,5 @@ class TicTacToe:
 			# button3['text'] == 'O' and button5['text'] == 'O' and button7['text'] == 'O' or
 			# button1['text'] == 'O' and button5['text'] == 'O' and button9['text'] == 'O'):
 			# 	messagebox.showinfo('Player O', 'You Win! Game Over!')
+
+	#For all possible wins of O	
