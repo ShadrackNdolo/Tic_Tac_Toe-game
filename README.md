@@ -32,9 +32,6 @@ There are no known bugs.
 HTML 5.
 Python 3.
 
-## Contributors
-This was an independent project. For any corrections or improvement kindly contact me on gmail.(shadrack.winters@outlook.com)
-
 ## Project Setup.
 * 1.You'll need a text editor such as Visual Studio Code. 
 * 2.Install python 2.7.16[here](https://www.python.org/download/releases/2.7/) or .3.6.2[here](https://www.python.org/downloads/release/python-360/) to enable you to run the python file (tkinter-game.py)
